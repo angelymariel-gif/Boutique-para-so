@@ -1,0 +1,167 @@
+/* Estilo general */
+body { 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: aliceblue;
+  margin:0;
+  padding:0;
+  color: black;
+  }
+  
+/* Encabezado */
+header {
+  background-color: #E4A559;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 5px 0 0;
+}
+
+/* Barra de navegacion */
+
+nav ul {
+  list-style: none;
+  background-color: burlywood;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 14px 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Contenedor principal */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+/* Configurar los animales de arriba */
+.animales {
+  background-color: lightblue;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  box-shadow: 0 4px 8x rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animales:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.animales img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0;
+  margin-bottom: 15px;
+}
+
+.animales h2 {
+  color: #1e3a8a;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.animales p {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+}
+
+.galeria {
+  padding: 20px;
+  background-color: cadetblue;
+  text-align: center;
+}
+
+.contenedor-galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.animales-img {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 300px;
+}
+
+.animales-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Pie de pagina */
+footer {
+  background-color: #E4A559;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
